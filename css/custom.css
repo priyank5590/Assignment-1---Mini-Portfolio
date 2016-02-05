@@ -1,7 +1,50 @@
 @charset "utf-8";
 /* CSS Document */
 
-.top-header{
-	min-height:60px;
-	background-color:#0e0c17 !important; 
+.top-header {
+	min-height: 60px;
+	background-color: #0e0c17;
+}
+header {
+	background: url(../images/bg1.jpg) #6534ff;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	background-size:cover;
+	min-height:610px;
+}
+.profile-pic {
+	margin: 130px auto 20px;
+}
+header .title {
+	font-size: 5em;
+	display: block;
+	text-transform: uppercase;
+	font-weight:700;
+	line-height:50px;
+}
+.code-img{
+	margin: 20px auto;
+}
+header .subtitle{
+	font-size:3em;
+	display: block;
+}
+@media screen and (max-width: 480px) {
+ header .title {
+	font-size: 2.5em;
+	display: block;
+	text-transform: uppercase;
+	font-weight:700;
+	line-height:40px;
+}
+.code-img{
+	margin:10px auto;
+}
+header .subtitle{
+	font-size:2em;
+	display: block;
+}
 }

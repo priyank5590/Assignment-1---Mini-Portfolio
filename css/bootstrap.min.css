@@ -3689,7 +3689,9 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 .navbar-nav>li>a {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	line-height: 29px
+	line-height: 29px;
+	text-transform:uppercase;
+	letter-spacing:0.5px;
 }
 @media (max-width:767px) {
 .navbar-nav .open .dropdown-menu {
@@ -3725,6 +3727,8 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 	padding-bottom: 15px;
 	color:#fff;
 	font-size:16px;
+	letter-spacing:0.5px;
+	text-transform:uppercase;
 }
 .navbar-nav>li>a:hover {
 	padding-top: 15px;
