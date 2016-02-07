@@ -12,8 +12,8 @@ header {
 	background-size: cover;
 	text-align: center;
 	color: #FFF;
-	background-size:cover;
-	min-height:610px;
+	background-size: cover;
+	min-height: 620px;
 }
 /*.profile-pic {
 	margin: 130px auto 20px;
@@ -21,63 +21,104 @@ header {
 header img {
 	margin: 130px auto 20px;
 }
-
 header .title {
 	font-size: 5em;
 	display: block;
 	text-transform: uppercase;
-	font-weight:700;
-	line-height:50px;
+	font-weight: 700;
+	line-height: 50px;
 }
-.code-img{
+.code-img {
 	margin: 20px auto;
 }
-header .subtitle{
-	font-size:3em;
+header .subtitle {
+	font-size: 3em;
 	display: block;
+	font-weight:300;
 }
 @media screen and (max-width: 480px) {
- header .title {
+header .title {
 	font-size: 2.5em;
 	display: block;
 	text-transform: uppercase;
-	font-weight:700;
-	line-height:40px;
+	font-weight: 700;
+	line-height: 40px;
 }
-.code-img{
-	margin:10px auto;
+.code-img {
+	margin: 10px auto;
 }
-header .subtitle{
-	font-size:2em;
+header .subtitle {
+	font-size: 2em;
 	display: block;
+	font-weight:300;
 }
 }
-
-section{
-	margin: 0 auto 50px;
-	color:#333;
-	text-align:center;
+section {
+	margin: auto;
+	color: #333;
+	padding: 60px 0px;
 }
-section h1{
-	margin:45px 0px;
-	color:#0e0c17;
-	text-transform:uppercase;
-	letter-spacing:1px;
+section h1 {
+	margin: 0px 0 50px;
+	color: #0e0c17;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
 }
-section h1:after{
-	content:url(../images/close-bracket.png);
+section h1:after {
+	content: url(../images/close-bracket.png);
 }
-section h1:before{
-	content:url(../images/open-bracket.png);
+section h1:before {
+	content: url(../images/open-bracket.png);
 }
 section a{
-	color:#333;
+	color: #333;
+	text-align:center;
 }
-section p{
-	margin:0 auto 40px;
+section a:hover {
+	color: #572ed5;
+	text-decoration: none;
+	transition: ease 0.3s;
 }
-section a:hover{
-	color:#572ed5;
-	text-decoration:none;
-	transition:ease 0.3s;
+section h3{
+	color: #333;
+	text-align:center;
+}
+section p {
+	margin: 0 auto 40px;
+	text-align:center;
+}
+
+.aboutme {
+	background: url(../images/about-bg.jpg) #6534ff;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
+	background-size: cover;
+	padding: 60px 0px;
+	min-height:550px;
+}
+div h1 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.me-text {
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 300;
+}
+.btn-success-custom {
+	background-color: #774ef7;
+	border-color: #683fe6;
+	color: #ffffff;
+	margin-left:14px;
+	padding:15px 30px;
+}
+.btn-success-custom:hover {
+	background-color: #683fe6;
+	border-color: #683fe6;
+	color: #ffffff;
 }
