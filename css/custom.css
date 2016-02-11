@@ -27,6 +27,7 @@ header .title {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 50px;
+	letter-spacing: 2px;
 }
 .code-img {
 	margin: 20px auto;
@@ -43,6 +44,7 @@ header .title {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 40px;
+	letter-spacing: 2px;
 }
 .code-img {
 	margin: 10px auto;
@@ -97,7 +99,7 @@ section p {
 	text-align: center;
 	color: #FFF;
 	background-size: cover;
-	padding: 60px 0px;
+	padding: 80px 0px;
 	min-height:550px;
 }
 div h1 {
@@ -121,4 +123,13 @@ div h1 {
 	background-color: #683fe6;
 	border-color: #683fe6;
 	color: #ffffff;
+}
+.bootom-footer {
+	min-height: 60px;
+	background-color: #0e0c17;
+}
+footer p{
+	color:#FFF;
+	line-height:70px;
+	text-align:center;
 }
