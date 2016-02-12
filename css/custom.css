@@ -91,6 +91,7 @@ section p {
 	text-align:center;
 }
 
+
 .aboutme {
 	background: url(../images/about-bg.jpg) #6534ff;
 	height: 100%;
@@ -132,4 +133,16 @@ footer p{
 	color:#FFF;
 	line-height:70px;
 	text-align:center;
+}
+section figure {
+	background:url(../images/link.png) center;
+	
+}
+section figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+section figure:hover img {
+	opacity: .1;
 }
