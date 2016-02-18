@@ -3,7 +3,7 @@
 // setuo your IIFE (Immediately Invoked Function Expression)
 
 (function () {
-	
+		
 	//declared a named function way
 	function ProjectDescription() {
 		console.log("inside ProjectDescription function");
@@ -14,11 +14,7 @@
 			aboutme, 
 			portfolio_title, 
 			aboutme_title, 
-			contactme_title, 
-			delight, shopzgala, 
-			workhive,
-			name,
-			designation;
+			contactme_title;
 		
 		firstProject = document.getElementById("firstProject");
 		firstProject.innerHTML = "This was my final project in the first semester for web and internet fundamentels. Perticularly in this project I learned how to use jQuery slider and integrate google maps on website. ";
@@ -41,18 +37,20 @@
 		contactme_title = document.getElementById("contactme_title");
 		contactme_title.innerHTML = "Contact Me";
 		
-		delight= document.getElementById("delight");
-		delight.innerHTML = "Delight - Antique Lamps";
-		
-		shopzgala= document.getElementById("shopzgala");
-		shopzgala.innerHTML = "Shopzgala";
-		
-		workhive= document.getElementById("workhive");
-		workhive.innerHTML = "Workhive";
-		
 	}
 		ProjectDescription();
-
-
+		
+		var userName = document.getElementById("userName");
+		var email = document.getElementById("email");
+		var phone = document.getElementById("phone");
+		var message = document.getElementById("message");
+		var submitButton = document.getElementById("submitButton");
+		
+		submitButton.addEventListener("click", function(){
+			console.log("User Name: " + userName.value);
+			console.log("Email Address: " + email.value);
+			console.log("Phone Number: " + phone.value);
+			console.log("Message: " + message.value);
+		});
 
 })();

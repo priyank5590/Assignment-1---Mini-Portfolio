@@ -35,7 +35,7 @@ header .title {
 header .subtitle {
 	font-size: 3em;
 	display: block;
-	font-weight:300;
+	font-weight: 300;
 }
 @media screen and (max-width: 480px) {
 header .title {
@@ -52,7 +52,7 @@ header .title {
 header .subtitle {
 	font-size: 2em;
 	display: block;
-	font-weight:300;
+	font-weight: 300;
 }
 }
 section {
@@ -73,25 +73,23 @@ section h1:after {
 section h1:before {
 	content: url(../images/open-bracket.png);
 }
-section a{
+section a {
 	color: #333;
-	text-align:center;
+	text-align: center;
 }
 section a:hover {
 	color: #572ed5;
 	text-decoration: none;
 	transition: ease 0.3s;
 }
-section h3{
+section h3 {
 	color: #333;
-	text-align:center;
+	text-align: center;
 }
 section p {
 	margin: 0 auto 40px;
-	text-align:center;
+	text-align: center;
 }
-
-
 .aboutme {
 	background: url(../images/about-bg.jpg) #6534ff;
 	height: 100%;
@@ -101,7 +99,7 @@ section p {
 	color: #FFF;
 	background-size: cover;
 	padding: 80px 0px;
-	min-height:550px;
+	min-height: 550px;
 }
 div h1 {
 	color: #fff;
@@ -117,8 +115,7 @@ div h1 {
 	background-color: #774ef7;
 	border-color: #683fe6;
 	color: #ffffff;
-	margin-left:14px;
-	padding:15px 30px;
+	padding: 15px 30px;
 }
 .btn-success-custom:hover {
 	background-color: #683fe6;
@@ -129,14 +126,13 @@ div h1 {
 	min-height: 60px;
 	background-color: #0e0c17;
 }
-footer p{
-	color:#FFF;
-	line-height:70px;
-	text-align:center;
+footer p {
+	color: #FFF;
+	line-height: 70px;
+	text-align: center;
 }
 section figure {
-	background:url(../images/link.png) center;
-	
+	background: url(../images/link.png) center;
 }
 section figure img {
 	opacity: 1;
@@ -146,3 +142,28 @@ section figure img {
 section figure:hover img {
 	opacity: .1;
 }
+.contact .left-inner-addon {
+	position: relative;
+}
+.contact .left-inner-addon input {
+	padding-left: 30px;
+}
+.contact .left-inner-addon i {
+	position: absolute;
+	padding: 10px 12px;
+	pointer-events: none;
+}
+.contact .right-inner-addon {
+	position: relative;
+}
+.contact .right-inner-addon input {
+	padding-right: 30px;
+}
+.contact .right-inner-addon i {
+	position: absolute;
+	right: 0px;
+	padding: 17px 12px;
+	pointer-events: none;
+	color:#717171;
+}
+
